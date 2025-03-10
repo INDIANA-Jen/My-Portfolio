@@ -1,0 +1,177 @@
+@import 'variables.scss';
+@import 'commun.scss';
+
+.contenerCompetence{
+
+    background-color: $coloblackone;
+
+    //background-color: rgb(32, 59, 151);
+    position: relative;
+    display: flex;
+    height:590px;
+    overflow: hidden;
+    flex-direction: column;
+    
+
+    .titlecompe{
+        //background-color: red;
+        //position: absolute;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        width: 400px;
+        height: 70px;
+        left: 90px;
+        top: 35px;
+        flex-direction: column;
+       
+        //margin-bottom: 500px;
+       
+
+        .comptitle{
+
+            $fontfamilytitle: 'Inter', sans-serif;
+            display: flex;
+            position: relative;
+            color: $background;
+            font-weight: bold;
+            font-size: 50px;
+            //background-color: aqua;
+            height: 60px;
+            overflow: hidden;
+            width: 300px;
+            
+
+        }
+
+        .linecomptitle{
+
+            background-color: $background;
+            width: 150px;
+            display: flex;
+            position: relative;
+            height:3px;
+
+        }
+        
+
+    }
+
+    .listeToutComp{
+
+        //background-color: rgb(127, 255, 255);
+       // background-color: $background;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        width: 1000px;
+        height: 410px;
+        top: 69px;  
+        
+       
+        .listecompetence{
+          
+            display: flex;
+            position: relative;
+            overflow: hidden;
+            //background-color: #32a852;
+            margin: 0 auto;
+            flex-direction: row;
+            flex-flow: row wrap;
+           
+
+            .listeOnecomp,
+            .listeTwocomp,
+            .listeThreecomp,
+            .listeforFDS,
+            .listefiveOutilstech,
+            .sixcontener
+
+            {
+
+                //background-color: red;
+                width:300px;
+                height: 170px;
+                margin: auto;
+
+                .titleDeveloppement,
+                .langframtitle,
+                .titleBD,
+                .titleFDS,
+                .titleoutTech
+                {
+                    font-family: $fontfamilycontener;
+                    font-weight: 600;
+                    font-size: 19px;
+                    //background-color: #32a852;
+                    height: 30px;
+                    width: 270px;
+                    
+                    .developpementTitle,
+                    .titleframlang,
+                    .BDtitle,
+                    .FDStitle,
+                    .techouttitle
+                    
+                    {
+                        bottom: 15px;
+                        display: flex;
+                        position: relative;
+
+                    }
+
+
+                }
+
+                /*.developpementList,
+                .listelangfram,
+                .listeBD,
+                .listFDS,
+                .listoutTech
+                {
+
+                    //background-color: #32a852;
+                
+                    
+
+                }*/
+
+                .developpementList,
+                .listelangfram,
+                .listeBD,
+                .listFDS,
+                .listoutTech
+                ul  
+                    {
+                        font-size: 17px;
+                        font-family: $fontfamilycontener;
+                        color: $colorWhite;
+                        text-decoration: none; 
+                        //list-style-type: none;
+                    
+                    }
+
+                
+            }
+           
+        }
+
+        .listecompetence div{
+           
+            background-color: $coloblack;
+            margin: 20px;
+            color: $colorWhite;
+            //flex-flow: row wrap;
+            //display: flex;
+            border-radius: 5px;
+            overflow: hidden;
+            
+           
+        } 
+
+
+    }
+   
+    
+}

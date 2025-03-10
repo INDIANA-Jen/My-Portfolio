@@ -1,0 +1,197 @@
+@import 'variables.scss';
+@import 'commun.scss';
+
+.contenerProfil{
+    //background-color: rgb(63, 154, 84);
+    background-color: $coloblack;
+    position: relative;
+    display: flex;
+    height: 450px;
+    overflow: hidden;
+
+    //different
+   
+    .imgprofilcontener{
+       // background-color: red;
+        width: 900px;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        height: 450px;
+
+        .imgprofil{
+
+            //background-color: rgb(0, 195, 255);
+            display: flex;
+            position: relative;
+            overflow: hidden;
+            height:340px;
+            width: 380px;
+            left: 60px;
+            top: 50px;
+
+            .imgp{
+
+                position: relative;
+                max-width: 320px;
+                max-height: 320px;
+                left: 30px;
+                top: 10px;
+
+            }
+            
+            
+        }
+    }
+
+    .contenerLinesepa{
+
+        //background-color: rgba(200, 255, 0, 0.833);
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        width: 200px;
+        height: 450px;
+
+        .linesepa{
+
+            background-color: $background;
+            display: flex;
+            position: relative;
+            overflow: hidden;
+            width:4px;
+            height: 370px;
+            top: 40px;
+            left: 60px;
+        }
+
+
+    }
+
+    .contenerAproposProfil{
+
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        //background-color: blue;
+        height: 450px;
+        overflow: hidden;
+        width: 1500px;
+
+        .textSalutation{
+
+            //background-color: rgb(134, 25, 134);
+            position: relative;
+            display: flex;
+            overflow: hidden;
+            width:750px;
+            height: 292px;
+            top: 80px;
+            left:2px;
+            flex-direction: column; // Arrange les éléments en une colonne
+
+            .bonjourjesuis{
+                //background-color: red;
+                position: relative;
+                display: flex;
+                font-family: $fontfamilycontener;
+                font-size: 20px;
+                margin-bottom: 20px; // séparant chaque élément du suivant
+                width: 500px;
+
+                .textBonjour{
+
+                    //background-color: rgb(0, 255, 179) ;
+                    width: 90px;
+                    color: $colorWhite;
+                    
+                }
+
+                .textjesuis{
+
+                    color: $background;
+                    font-weight: bold; // pour mettre le texte en gras 
+                }
+                
+            }
+
+            .nomprenom{
+                //background-color: red;
+                width: 500px;
+                font-size: 30px;
+                font-family: $fontfamilytitle;
+                color: $background;
+                margin-bottom: 20px;
+            }
+
+            .textdev{
+
+                //background-color: red;
+                width: 500px;
+                font-weight: bold;
+                font-family: $fontfamilycontener;
+                color: $colorWhite;
+                font-size: 20px;
+                margin-bottom: 20px;
+
+            }
+
+            .textapropo{
+                //background-color: red;
+                width: 500px;
+                font-family: $fontfamilycontener;
+                color: $colorWhite;
+                margin-bottom: 20px;
+                font-size: 17px;
+                //justify-content: space-between;
+            }
+
+            .contenercheck{
+
+               // background-color: red;
+                width: 500px;
+                position: relative;
+                display: flex;
+
+                .textcheck{
+
+                    //background-color: rgb(98, 0, 255);
+                    width: 170px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    font-family: $fontfamilycontener;
+                    color: $colorWhite;     
+                }
+
+                .checkicon{
+                    //background-color: rgb(0, 200, 255);
+                    width: 130px;
+                    position: relative;
+                    display: flex;
+                    padding: 5px;
+                    //justify-content: space-between;
+                    align-items: center;
+                    padding: 0 20px;
+                    justify-content: space-between;
+                    //margin: 0 auto; 
+                    
+                  /*  .contenerGit{
+                       // background-color: red;
+                    }
+
+                    .contenerLink{
+                       // background-color: red;
+                    }*/
+                }
+
+            }
+            
+            
+        
+        }
+    }
+
+    
+}
+
+
